@@ -52,6 +52,7 @@ export const Step2: FC<IStepProps> = ({
               bgColor="#2C2C2C"
               isDisabled={!isNextStepAlowed}
               onClick={handleNextStage}
+              _hover={{ borderColor: "#2C2C2C" }}
             >
               Submit
             </Button>
