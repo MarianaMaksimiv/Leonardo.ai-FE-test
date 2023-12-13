@@ -41,6 +41,7 @@ export const Step1: FC<IStepProps> = ({
             variant="secondary"
             isDisabled={!isNextStepAlowed}
             onClick={handleNextStage}
+            _hover={{ borderColor: "#2C2C2C" }}
           >
             Next
           </Button>
